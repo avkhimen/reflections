@@ -1,0 +1,24 @@
+Using the diff command allowed me to
+pinpoint the differences between the two files.
+Use "mkdir" to make new directories.
+
+Different version of files allow one to go back in
+time if something needs to be corrected.
+
+It think its best to commit after doing
+some logical code. But sometimes smaller changes
+can be good too.
+
+"git log" logs all the commits for the particular
+repository. Use up and down keys to move up
+and down within all the commits. Use "q" to
+exit the repository.
+
+"git diff commit1 commit2" is the command for
+checking the differences between two commit
+versions.
+
+To check out the older version of a file
+use the "git checkout commit#" and then
+navigate to the folder where the file is
+to see it.
