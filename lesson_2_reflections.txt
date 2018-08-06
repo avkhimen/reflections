@@ -1,0 +1,14 @@
+To initialize a new git repository
+in the location of your choice navigate
+to that location and then type in
+"git init". "git status" will give you
+the list of the files in that folder.
+
+To add files to staging area use
+"git add filename" command. To remove
+one of the files from the staging area
+use "git reset filename".
+
+The files about to be committed are
+stored in what's called the "staging
+area". 
