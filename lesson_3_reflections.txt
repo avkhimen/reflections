@@ -1,1 +1,5 @@
-
+To create new repository on github create it on github first.
+Then to push existing files to it do this:
+1) Navigate to your directory on git_bash
+2) git remote add chainname repo_url
+3) git remote push chainname master
