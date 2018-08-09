@@ -11,4 +11,47 @@ use "git reset filename".
 
 The files about to be committed are
 stored in what's called the "staging
-area". 
+area".
+
+"git commit" is used to add the commit
+to the repository.
+"git commit -m 'message'" is used to
+add the message for the commit without
+opening atom.
+
+"git branch branchname" creates a
+branch and instantiates it with name.
+
+"git log --graph
+--oneline master branchname"
+shows all the commit and the branches.
+You'll need to checkout a branch
+before making commits in it.
+
+"git checkout -b newbranchname"
+creatse a new branch and checks it out.
+
+"git marge branch1 branch2" merges
+the 2 branches. Can also checkout 
+branch1 and then type in "git merge
+branch2" to do the same. If branch1 is
+checked out and command "git merge
+branch2 branch3" is typed branches 
+branch1, branch2, and branch3 will
+merge. 
+
+"git log --graph --oneline" displays
+the first few symbols in commit id
+and the first line of commit title.
+
+You must manually resolve the
+changes in code by going directly
+to the file and accepting appropriate
+changes in order to conclude the
+merge process. Read the instructions.
+"git commit" message will appear
+after you attempt to checkout
+the branch and complete the merge. 
+
+"git log -n 1" will display only
+one (latest) commit.
